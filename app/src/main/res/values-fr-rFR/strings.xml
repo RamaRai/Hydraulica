@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Hydraulica</string>
+    <string name="app_about">About...</string>
+    <string name="app_contact">Contact Us...</string>
+    <string name="app_calcin">Calculation Input</string>
+    <string name="app_calcres">Calculation Result</string>
+    <string name="app_map">Hydraulica - North America</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_header_title">Hydraulica By Rama K. Rai</string>
+    <string name="nav_header_subtitle">rama.rai.verma@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="action_settings">Exit</string>
+    <string name="menu_calculate">Calculate Cylinder Force</string>
+    <string name="menu_supplier">Add Supplier</string>
+    <string name="menu_contactus">Contact Us</string>
+    <string name="menu_database">Database: Notes</string>
+    <string name="menu_about">About</string>
+    <string name="menu_map">Map: Our Locations</string>
+    <string name="menu_exit">Exit</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="About_text">Hydraulica is a Paid\n
+        Android Application that also \n
+        has support for French Canadian \n
+        and UK users and different devices \n
+        along with the special features like \n
+        Database, Google Maps and Charts \n
+        and Google mail Gmail \n
+
+    </string>
+    <string name="ContactUs_text">\n
+        Mechanical 2020 Inc. \n
+        5555 Main Street (suite 101) \n
+        Toronto, ON \n
+        M5M 5M5 \n
+        tel : (416)555-5555 \n
+        email :\n mechanical@somewhere.com \n
+        url :\n http://www.senecacollege.ca \n
+
+    </string>
+    <string name="title_activity_calcuinput">calcuinput</string>
+    <string name="no_todos">Currently there are no Information maintained</string>
+    <string name="countries">Country</string>
+    <string name="todo_edit_confirm">Confirm</string>
+    <string name="menu_insert">Add Item</string>
+    <string name="menu_delete">Delete Address</string>
+</resources>

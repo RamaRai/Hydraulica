@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/yellow"
+    android:padding="10dp">
+
+    <Spinner
+        android:id="@+id/category"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/white"
+        android:entries="@array/categories" >
+    </Spinner>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/add_fn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:hint="Name"
+            android:imeOptions="actionNext" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/add_sbj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:hint="Subject"
+            android:imeOptions="actionNext" >
+        </EditText>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/add_stradd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:hint="Address"
+        android:imeOptions="actionNext">
+    </EditText>
+
+    <Spinner
+        android:id="@+id/scountry"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:prompt="@string/countries"
+        android:spinnerMode="dialog"
+        android:entries="@array/country" >
+    </Spinner>
+
+    <EditText
+        android:id="@+id/add_remarks"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:hint="Remarks"
+        android:imeOptions="actionNext">
+    </EditText>
+
+    <EditText
+        android:id="@+id/add_phone"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:digits="+0123456789"
+        android:hint="Contact"
+        android:imeOptions="actionNext"
+        android:inputType="phone"
+        android:lines="1"
+        android:maxLength="12"
+        android:textSize="18dp"></EditText>
+
+    <Button
+        android:id="@+id/add_detail_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:text="@string/todo_edit_confirm" >
+    </Button>
+
+</LinearLayout> 

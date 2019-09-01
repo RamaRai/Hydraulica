@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string-array name="categories">
+        <item>Supplier</item>
+        <item>Manufacturer</item>
+        <item>Contractor</item>
+        <item>SubContractor</item>
+        <item>Client</item>
+        <item>Others</item>
+    </string-array>
+
+</resources> 

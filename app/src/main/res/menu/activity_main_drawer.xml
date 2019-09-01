@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_calculate"
+            android:icon="@drawable/calculator"
+            android:title="@string/menu_calculate" />
+        <item
+            android:id="@+id/nav_supplier"
+            android:icon="@drawable/suppliers"
+            android:title="@string/menu_supplier" />
+        <item
+            android:id="@+id/nav_database"
+            android:icon="@drawable/database"
+            android:title="@string/menu_database" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/google_maps"
+            android:title="@string/menu_map" />
+    </group>
+
+    <item android:title="Know Us">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/information"
+                android:title="@string/menu_about" />
+            <item
+                android:id="@+id/nav_contactus"
+                android:icon="@drawable/contactus"
+                android:title="@string/menu_contactus" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/exit_run"
+                android:title="@string/menu_exit" />
+        </menu>
+    </item>
+
+</menu>

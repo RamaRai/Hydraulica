@@ -1,0 +1,32 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=22:49:09:61:30:D8:A3:17:27:FB:E9:00:8F:83:1F:80:81:70:D2:C9%3Bcom.example.w5a_maps
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    22:49:09:61:30:D8:A3:17:27:FB:E9:00:8F:83:1F:80:81:70:D2:C9
+
+    SHA-1 certificate fingerprint:
+    22:49:09:61:30:D8:A3:17:27:FB:E9:00:8F:83:1F:80:81:70:D2:C9
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    **** My Rama Rai comment Copy the entire line below and paste it in command line to get unique debug key SHA1 code and SHA256
+    keytool -list -v -keystore "%USERPROFILE%\.android\debug.keystore" -alias androiddebugkey -storepass android -keypass android
+    Copy SHA1 and SHA256 andpaste to notepad
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+
+    <!-- The key is My own Android + Maps SDK Restrcited key for this project   AIzaSyA55ql1UaGR4KIbFAlR8N-rnZBiI9mJ5iA
+     The Unrestricted Key is  AIzaSyBV-R6_gSpr1dspx_MMnBqQKCN-XOL-ZoM for any project  -->
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBV-R6_gSpr1dspx_MMnBqQKCN-XOL-ZoM</string>
+</resources>
